@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:weightSum="2">
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="Rahul"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/name"/>
+
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="rahulbibave@gmail.com"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/email"/>
+
+</LinearLayout>
